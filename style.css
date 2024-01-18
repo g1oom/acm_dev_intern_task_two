@@ -4,6 +4,9 @@ body {
 
 section {
     padding: 1rem;
+    margin: 2rem;
+    border: 1px solid orange;
+    box-sizing: border-box;
 }
 
 .section_header {
@@ -18,12 +21,49 @@ section {
     color: white;
 }
 
+.blog_container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.blog_item_container {
+    border: 1px solid white;
+    margin: 1rem;
+}
+
+.blog_item {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.photo_gallery {
+    width: fit-content;
+}
+
+.photo_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5%;
+    padding-bottom: 2rem;
+}
+
+.photo {
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: right;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 a, a:hover, a:visited, a:active {
