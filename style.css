@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+section {
+    padding: 1rem;
+}
+
+.section_header {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.about_me, .contact {
+    background-color: white;
+}
+
+.blog_posts, .blog_text, footer {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: underline;
+}
